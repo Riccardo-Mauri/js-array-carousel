@@ -10,26 +10,33 @@
 </head>
 
 <body>
-    <!--CONTAINER/CAROSELLO CON DENTRO IL CONTAINER DELLE IMMAGINI DA FAR SCORRERE-->
-    <main class="main-container">
-        <!--CONTAINER ALL'INTERNO DEL CAROSELLO CON DENTRO UN ALTRO CONTAINER PER OGNI IMG -->
-        <div class="container">
-            <div class="img-container"><img src="./img/01.webp" alt=""></div>
-            <div class="img-container"><img src="./img/02.webp" alt=""></div>
-            <div class="img-container"><img src="./img/03.webp" alt=""></div>
-            <div class="img-container"><img src="./img/04.webp" alt=""></div>
-            <div class="img-container"><img src="./img/05.webp" alt=""></div>
-        </div>
-        <!--BOTTONI PER CAMBIARE IMMAGINE DDEL CAROSELLO-->
-        <div class="inputbtn-cont">
-            <button> clicca per cambiare img</button>
-        </div>
-        <div class="inputbtn-conttwo">
-            <button>clicca per cambiare img</button>
+    <div class="main-cont">
+        <div class="carousel">
+         <button class="carousel-button carousel-button-left">
+             Vai a sinistra
+         </button>
+         <div class="carousel-track-container">
+             <ul class="carousel-track">
+                 <li class="carousel-slide"><img src="./img/01.webp" alt="img1"></li>
+                 <li class="carousel-slide"><img src="./img/02.webp" alt="img2"></li>
+                 <li class="carousel-slide"><img src="./img/03.webp" alt="img3"></li>
+                 <li class="carousel-slide"><img src="./img/04.webp" alt="img4"></li>
+                 <li class="carousel-slide"><img src="./img/05.webp" alt="img5"></li>
+             </ul>
+         </div>
+         <button class="carousel-button carousel-button-right">
+             Vai a destra
+         </button>
+         <div class="carousel-nav">
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+            <button class="carousel-indicator"></button>
+         </div>
         </div>
 
-
-    </main>
+    </div>
     <script src="js/scripts.js"></script>
 </body>
 
